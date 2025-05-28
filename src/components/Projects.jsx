@@ -16,7 +16,7 @@ export default function Projects() {
               <span className="text-sm text-gray-500">90%</span>
             </div>
             <div className="w-full bg-gray-200 rounded-full h-4">
-              <div className="bg-blue-600 h-4 rounded-full" style={{ width: '90%' }}></div>
+              <div className="bg-red-600 h-4 rounded-full" style={{ width: '90%' }}></div>
             </div>
           </div>
 
@@ -27,7 +27,7 @@ export default function Projects() {
               <span className="text-sm text-gray-500">80%</span>
             </div>
             <div className="w-full bg-gray-200 rounded-full h-4">
-              <div className="bg-green-600 h-4 rounded-full" style={{ width: '80%' }}></div>
+              <div className="bg-blue-600 h-4 rounded-full" style={{ width: '80%' }}></div>
             </div>
           </div>
 
@@ -38,10 +38,23 @@ export default function Projects() {
               <span className="text-sm text-gray-500">60%</span>
             </div>
             <div className="w-full bg-gray-200 rounded-full h-4">
-              <div className="bg-yellow-500 h-4 rounded-full" style={{ width: '60%' }}></div>
+              <div className="bg-cyan-500 h-4 rounded-full" style={{ width: '60%' }}></div>
             </div>
+
+            
           </div>
+          <div>
+
+            <div className="flex justify-between mb-1">
+              <span className="text-xl font-medium text-gray-700">Swagger</span>
+              <span className="text-sm text-gray-500">65%</span>
+            </div>
+
+            <div className="w-full bg-gray-200 rounded-full h-4">
+              <div className="bg-green-500 h-4 rounded-full" style={{ width: '65%' }}></div>
+            </div>
         </div>
+      </div>
       </div>
     </section>
   );
